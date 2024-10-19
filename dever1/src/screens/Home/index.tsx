@@ -33,11 +33,11 @@ export function Home() {
           <BellSimple color="#FFF" size={32} />
         </View>
 
-        {/* Área de Informações Clima */}
+        {}
         <View style={styles.info}>
           <Text style={styles.infoText}>21°C</Text>
           <View style={styles.sunIconContainer}>  
-            <Sun width={200} height={200} /> {/* O componente SVG está envolvido corretamente */}
+            <Sun width={200} height={200} /> {}
           </View>
           <Text style={styles.infoTextMaxMin}>Max.: 31º Min.: 25º</Text>
         </View>
@@ -49,7 +49,7 @@ export function Home() {
           <View style={styles.infoDetailsCard}>
             <Text style={styles.infoDetailsCardWeekDay}>Seg.</Text>
             <View>
-              <Sun02d width={40} height={40} /> {/* Garantimos que SVGs estão envoltos em <View> */}
+              <Sun02d width={40} height={40} /> {}
             </View>
             <Text style={styles.infoDetailsCardPreview}>19°C</Text>
           </View>
